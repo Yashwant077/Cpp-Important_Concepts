@@ -1,6 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Virtual functions important points:
+1. Virtual function can not be static
+2. Virtual function can be accessed using object pointers.
+3. Virtual function can be a friend of another class.
+4. A Virtual function might not be used.
+5. If a Virtual function is defined in base class, then there is no necessity of redefining it in the derived class.
+*/
+
 class Person {
     protected:
         string name;
